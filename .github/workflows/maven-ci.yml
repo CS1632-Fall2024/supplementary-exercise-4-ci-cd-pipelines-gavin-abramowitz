@@ -52,12 +52,12 @@ jobs:
         path: .
 
   # Uploads dependency graph to GitHub to receive Dependabot alerts 
-  update_dependence_graph:
+  update_dependence_graph:r
 
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
 
